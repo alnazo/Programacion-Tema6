@@ -6,8 +6,11 @@ public class Limpiadores {
     double sueldo;
     String[] dias;
     
-    Limpiadores(){
-        //TODO
+    public Limpiadores(String nombre, String dni, double sueldo, String[] dias){
+        this.nombre = nombre;
+        this.dni = dni;
+        this.sueldo = sueldo;
+        this.dias = dias;
     }
 
 }

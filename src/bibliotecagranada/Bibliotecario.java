@@ -6,8 +6,11 @@ public class Bibliotecario {
     double sueldo;
     boolean finde;
 
-    Bibliotecario(){
-        //TODO
+    Bibliotecario(String nombre, String dni, double sueldo, boolean finde){
+        this.nombre = nombre;
+        this.dni = dni;
+        this.sueldo = sueldo;
+        this.finde = finde;
     }
 
 }
