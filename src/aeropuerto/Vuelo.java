@@ -59,7 +59,9 @@ public class Vuelo {
         for(int i = 0; i < this.pasajeros.length; i++){
             System.out.println("--------Pasajero: "+i+"--------");
             System.out.println(this.pasajeros[i].toString());
-            System.out.println("---------------------------");
+            if(this.pasajeros.length == i+1){
+                System.out.println("---------------------------");
+            }
         }
     }
 
