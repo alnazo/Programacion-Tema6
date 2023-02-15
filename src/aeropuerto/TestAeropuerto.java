@@ -19,8 +19,8 @@ public class TestAeropuerto {
         System.out.println("---------------------------");
         System.out.println("---------------------------");
 
-        System.out.println(azafato.toString());
+        System.out.println(azafato);
         System.out.println("---------------------------");
-        System.out.println(trabajador.toString());
+        System.out.println(trabajador);
     }
 }
