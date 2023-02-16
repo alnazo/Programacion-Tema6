@@ -45,6 +45,7 @@ public class Personal {
         this.mail = mail;
     }
 
+    @Override
     public String toString() {
         return "Nombre: "+this.nombre+
                 "\nApellidos: "+this.apellidos+
@@ -52,4 +53,13 @@ public class Personal {
                 "\nEmail: "+this.mail;
     }
 
+    @Override
+    public boolean equals(Object otro){
+        Personal otroPersonal = (Personal) otro;
+        boolean res = false;
+        if(this.dni.equals(otroPersonal.dni)){
+            res=true;
+        }
+        return res;
+    }
 }
