@@ -12,3 +12,4 @@ Recopilacion de todas las tareas realizadas para el tema 6
 
 * Ejercicio [Avanzado Clases, Herencias e Interfaces](src/ejercicioavanzado)
 * Ejercicio [Aeropuerto](src/aeropuerto)
+* Ejercicio [Horas](src/horas)
