@@ -1,8 +1,5 @@
 # Uniad 6 (Clases)
 
-Recopilacion de todas las tareas realizadas para el tema 6
-
-
 * Ejercicio [Biblioteca](src/biblioteca)
 * Ejercicio [Billete Oculto](src/billeteoculto)
 * Ejercicio [Videoclub](src/videoclub)
@@ -13,3 +10,4 @@ Recopilacion de todas las tareas realizadas para el tema 6
 * Ejercicio [Avanzado Clases, Herencias e Interfaces](src/ejercicioavanzado)
 * Ejercicio [Aeropuerto](src/aeropuerto)
 * Ejercicio [Horas](src/horas)
+* Ejercicio [Diagrama](src/diagrama)

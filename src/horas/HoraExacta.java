@@ -40,5 +40,13 @@ public class HoraExacta extends Hora{
         return res;
     }
 
+    public boolean iguales(Object otraH){
+        boolean res = false;
+        HoraExacta otra = (HoraExacta) otraH;
+        if (this.hora == otra.hora && this.minutos == otra.minutos && this.segundos == otra.segundos){
+            res = true;
+        }
+        return res;
+    }
 
 }
