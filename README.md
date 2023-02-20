@@ -11,3 +11,4 @@
 * Ejercicio [Aeropuerto](src/aeropuerto)
 * Ejercicio [Horas](src/horas)
 * Ejercicio [Diagrama](src/diagrama)
+* Ejercicio [Abstractos](src/abstractas)
