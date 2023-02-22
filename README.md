@@ -12,3 +12,4 @@
 * Ejercicio [Horas](src/horas)
 * Ejercicio [Diagrama](src/diagrama)
 * Ejercicio [Abstractos](src/abstractas)
+* Ejercicio [Hospital](src/hospital)
