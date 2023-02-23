@@ -4,7 +4,7 @@ enum Area {
     ENFERMERO, RECEPCIONISTA, LIMPIADOR, BEDEL
 }
 
-public class NoMedico extends Trabajador {
+abstract class NoMedico extends Trabajador {
     Area puesto;
     
     NoMedico(String nombre, int identificador, double sueldo, Area puesto){
@@ -54,6 +54,11 @@ public class NoMedico extends Trabajador {
     public String toString() {
         return super.toString()+
             "\nPuesto de trabajo: "+this.getPuesto();
+    }
+
+    public double calcularSueldo(){
+        
+        return this.sueldo;
     }
 
 }

@@ -4,7 +4,7 @@ enum Especialidad {
     CARDIOLOGO, PEDIATRA, CIRUJANO, NEUROLOGO
 }
 
-public class Medico extends Trabajador{
+abstract class Medico extends Trabajador{
     Especialidad especialidad;
     int colegiado;
     int pacientes;
@@ -82,5 +82,12 @@ public class Medico extends Trabajador{
             "\nPacientes atendidos: "+this.getPacientes();
     }
 
+    public double calcularSueldo(){
+        double extra = 0.0;
+
+        extra = this.pacientes*0.15;
+        
+        return this.sueldo + extra;
+    }
 
 }

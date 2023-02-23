@@ -2,14 +2,14 @@ package abstractas;
 
 import java.util.ArrayList;
 
-enum Notas {
+enum Nota {
     DO,RE,MI,FA,SOL,LA,SI;
 }
 
 abstract class Instrumento {
-    ArrayList<Notas> notas = new ArrayList<Notas>();
+    ArrayList<Nota> notas = new ArrayList<Nota>();
 
-    public void add(Notas nota){
+    public void add(Nota nota){
         notas.add(nota);
     }
 

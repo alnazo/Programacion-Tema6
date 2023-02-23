@@ -1,6 +1,6 @@
 package hospital;
 
-public class Trabajador {
+abstract class Trabajador {
     String nombre;
     int identificador;
     double sueldo;
@@ -41,6 +41,8 @@ public class Trabajador {
             "\nIdentificador: "+this.getIdentificador()+
             "\nSueldo: "+this.getSueldo();
     }
+
+    abstract double calcularSueldo();
 
 }
 
