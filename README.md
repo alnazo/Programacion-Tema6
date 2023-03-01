@@ -13,3 +13,8 @@
 * Ejercicio [Diagrama](src/diagrama)
 * Ejercicio [Abstractos](src/abstractas)
 * Ejercicio [Hospital](src/hospital)
+
+# Unidad 8 (Interfaces)
+
+* Ejercicio [Figuras](src/figuras)
+* Ejercicio [Cola](src/cola)
