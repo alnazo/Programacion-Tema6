@@ -2,7 +2,7 @@ package cola;
 
 import java.util.Arrays;
 
-public class Lista implements Cola{
+public class Lista implements Cola, Pila{
     Integer[] tabla;
 
     public Lista() {
@@ -77,6 +77,14 @@ public class Lista implements Cola{
     }
 
     public void desencolar(){
+        this.eliminar(0);
+    }
+
+    public void apilar(int num){
+        this.insertarPrincipio(num);
+    }
+
+    public void desapilar(){
         this.eliminar(0);
     }
 
