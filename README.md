@@ -18,3 +18,4 @@
 
 * Ejercicio [Figuras](src/figuras)
 * Ejercicio [Cola](src/cola)
+* Ejercicio [Tienda](src/tienda)
