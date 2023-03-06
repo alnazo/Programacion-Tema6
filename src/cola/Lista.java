@@ -1,6 +1,7 @@
 package cola;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Lista implements Cola, Pila{
     Integer[] tabla;
@@ -78,6 +79,28 @@ public class Lista implements Cola, Pila{
 
     public void desencolar(){
         this.eliminar(0);
+    }
+
+    public void encolarSeguidos(){
+        Scanner sc = new Scanner(System.in);
+        int num;
+        do {
+            System.out.println("Introducir un numero:");
+            num = sc.nextInt();
+            if (num >= 0){
+                this.insertarFinal(num);
+            } else {
+                break;
+            }
+        } while (num >= 0);
+
+
+    }
+
+    public void vaciarCola(){
+        for(int i = this.tabla.length; i>0;i-- ){
+            System.out.println(this.eliminar(0));
+        }
     }
 
     public void apilar(int num){
