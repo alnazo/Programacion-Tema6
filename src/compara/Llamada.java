@@ -10,8 +10,8 @@ public class Llamada {
     private Date fecha;
     private Instant inicio;
     private Instant fin;
-    private String[] zona = {"CATALUNA", "CANTABRIA", "ANDALUCIA", "CANARIAS", "MEDITERRANEO"};
-    private double[] precio = {0.25, 0.55, 0.18, 0.72, 0.31};
+    private String[] zonas = {"CATALUNA", "CANTABRIA", "ANDALUCIA", "CANARIAS", "MEDITERRANEO"};
+    private double[] precios = {0.25, 0.55, 0.18, 0.72, 0.31};
 
     Llamada(){}
     Llamada(int telefono, int interlocutor, boolean output, Date fecha, Instant inicio, Instant fin){
