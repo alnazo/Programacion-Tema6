@@ -1,9 +1,9 @@
 package compara;
 
 import java.time.Instant;
-import java.util.Date;
+import java.util.*;
 
-public class Llamada {
+public class Llamada implements Comparable, Comparator{
     private int telefono;
     private int interlocutor;
     private boolean output;
