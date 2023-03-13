@@ -37,7 +37,18 @@ public class Socio implements Comparable {
     // }
 
     public int compareTo(Object ob){
-        return this.id - ((Socio) ob).id;
+        // return this.id - ((Socio) ob).id;
+        int resultado;
+        Socio otroSocio = (Socio) ob;
+        if (this.nombre.compareTo(otroSocio.nombre)<0){
+            resultado = -1;
+        } else if (this.nombre.compareTo(otroSocio.nombre)>0){
+            resultado = 1;
+        } else {
+            resultado = 0;
+        }
+
+        return resultado;
     }
 
     public String toString(){
