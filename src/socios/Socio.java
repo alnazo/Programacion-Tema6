@@ -54,7 +54,5 @@ public class Socio implements Comparable {
     public String toString(){
         return "\nId: "+id+" Nombre: "+nombre+" Edad: "+edad();
     }
-
-
-
+    
 }
