@@ -20,4 +20,5 @@
 * Ejercicio [Cola](src/cola)
 * Ejercicio [Tienda](src/tienda)
 * Ejercicio [Comparator y Comarable](src/compara)
+* Ejercicio [Socio](src/socios)
 
