@@ -26,5 +26,6 @@
 
 * Ejercicio [Enteros](src/enteros)
 * Ejercicio [Numeros reales](src/numsreales)
-
+* Ejercicio [Salida por consola](src/salidafin)
+* Ejercicio [Copia fichero](src/copiafichero)
 
