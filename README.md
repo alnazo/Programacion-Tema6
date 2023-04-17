@@ -29,3 +29,8 @@
 * Ejercicio [Salida por consola](src/salidafin)
 * Ejercicio [Copia fichero](src/copiafichero)
 
+# Unidad 10 (Colecciones)
+
+* Ejercicio [List](src/list)
+* Ejercicio [Socio Conjuntos](src/socioconjunto)
+
